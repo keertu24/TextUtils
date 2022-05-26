@@ -5,6 +5,7 @@ from  django.shortcuts import render
 def index(request):
 
     return render(request,'index.html')
+#its keerthan
 
 def analyse(request):
     djtext = request.POST.get("text", "default")
